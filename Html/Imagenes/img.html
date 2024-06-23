@@ -1,3 +1,38 @@
 <!-- IMÁGENES -->
 
-<img src="m7brwr.jpg" alt="Desierto">
+<img
+  src="m7brwr.jpg"
+  alt="Desierto"
+  srcset="m7brwr.jpg 1000w, m7brwr.jpg 700w"
+/>
+
+<!-- Resolucíon -->
+<p>
+  PRO TIP 👉 Un error común que cometen los nuevos programadores es no
+  considerar la variedad de tamaños de pantalla en las que se visualizará su
+  página web. A la hora de diseñar tu página, asegúrate de cuestionar cual es tu
+  audiencia, sus dispositivos, y sus navegadores específicos. Para proyectos
+  comunes recomiendo soportar 3 tamaños generales (móvil, ipad, y escritorio) y
+  las últimas 3 versiones de los navegadores más usados (Chrome, Firefox, Safari
+  y Edge). Esto permitirá diseñar proyectos se adapten de manera fluida a
+  diferentes resoluciones y dispositivos, proporcionando una mejor experiencia
+  de usuario.
+</p>
+<!-- semantica expresiones que es similar a otras -->
+<!-- Figure : Ayuda a la semántica para los buscadores -->
+<figure>
+  <img src="m7brwr.jpg" alt="Un Desierto de USA" />
+  <figcaption>
+    Este es un Desierto Lorem ipsum dolor sit amet consectetur, adipisicing
+    elit. Eum sunt officiis nesciunt atque eaque, aperiam laudantium in quaerat
+    vero rerum repellendus illo quas ex, eius quos esse, at enim autem?
+  </figcaption>
+</figure>
+
+<!-- FOTOS O PICTURE -->
+<picture>
+    <source media="(min-width:1200px)" srcset="./images.png">
+    <source media="(min-width:600px)" srcset="./m7brwr.jpg">
+    <img src="m7brwr.jpg" alt="Desierto" width="600">
+</picture>
+

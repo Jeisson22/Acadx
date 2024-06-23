@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./aseets/estadio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14630px; 
+    height: auto;
+}
+
+
+figure {
+    border-radius: 5%;
+    width: 300px; /* Puedes ajustar este valor según sea necesario */
+    padding: 10px;
+    background-color: rgb(148, 126, 126);
+    opacity: 0.80;
+    margin-top: 175px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: justify; 
+    overflow-wrap: break-word; 
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+}
+
+a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 105px;
+}
